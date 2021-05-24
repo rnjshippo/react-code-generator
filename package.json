@@ -6,30 +6,25 @@
   "author": "hyunjun kwon",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./bin/index.js",
+    "start": "node ./bin/index.js",
     "build": "rimraf ./dist && tsc -p tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./dist",
     "clean": "rimraf ./dist"
   },
-  "bin": "./bin/index.js",
+  "bin": {
+    "react-codegen": "./bin/index.js"
+  },
   "dependencies": {
     "chalk": "^4.1.1",
-    "commander": "^7.2.0",
+    "commander": "4.1.1",
     "fs-extra": "^10.0.0"
   },
   "devDependencies": {
-    "@types/fs-extra": "^9.0.11",
-    "@typescript-eslint/eslint-plugin": "^4.24.0",
-    "@typescript-eslint/parser": "^4.24.0",
     "eslint": "^7.27.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.1.0",
     "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.23.3",
     "eslint-plugin-prettier": "^3.3.1",
-    "prettier": "^2.3.0",
-    "ts-node": "^10.0.0",
-    "tscpaths": "^0.0.9",
-    "typescript": "^4.2.4"
+    "prettier": "^2.3.0"
   }
 }
