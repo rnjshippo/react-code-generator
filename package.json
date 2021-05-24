@@ -1,6 +1,12 @@
 {
   "name": "@rnjshippo/react-codegen",
   "version": "0.0.3",
+  "keywords": [
+    "react",
+    "boilerplate",
+    "webpack",
+    "typescript"
+  ],
   "description": "react boilerplate code generator",
   "repository": "https://github.com/rnjshippo/react-code-generator",
   "author": "hyunjun kwon",
