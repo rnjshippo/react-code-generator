@@ -2,7 +2,7 @@
 
 ## Installation
 
-```bash
+```
 npx @rnjshippo/react-codegen <project-directory>
 ```
 
