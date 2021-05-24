@@ -12,9 +12,7 @@
   "author": "hyunjun kwon",
   "license": "MIT",
   "scripts": {
-    "start": "node ./bin/index.js",
-    "build": "rimraf ./dist && tsc -p tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./dist",
-    "clean": "rimraf ./dist"
+    "start": "node ./bin/index.js"
   },
   "bin": {
     "react-codegen": "./bin/index.js"
