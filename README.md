@@ -11,6 +11,6 @@ npx @rnjshippo/react-codegen -p {my-path} # Default path is '.'
 ## Run
 
 ```bash
-cd src
+yarn install
 yarn dev
 ```
